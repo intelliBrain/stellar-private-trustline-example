@@ -13,7 +13,6 @@ if (!fs.existsSync(path.join(__dirname, SECRET_FOLDER_NAME))) {
    * Create folder for store
    * key file
    */
-  console.log('[issuer] secret folder not exixts, create new folder')
   fs.mkdirSync(path.join(__dirname, SECRET_FOLDER_NAME))
 }
 

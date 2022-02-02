@@ -50,5 +50,4 @@ export async function createWalllet(server: Server): Promise<AccountResponse | u
       return undefined
     }
   }
-
 }
