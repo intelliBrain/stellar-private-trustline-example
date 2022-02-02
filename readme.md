@@ -1,7 +1,9 @@
 # Stellar Private Trustline Example
+
 This repository show how to implement stellar network blockchain custom asset and how to make it Authenticable to hold the asset
 
-# What does it work?
+## How does it work?
+
 - Create new Issuer and Distributor key
 - Create new Custom Asset from `ASSET_NAME` in env
 - Set Issuer option to `AuthRequired`
@@ -13,19 +15,22 @@ This repository show how to implement stellar network blockchain custom asset an
 - Issuer `AllowTrust` to Customer
 - Distributor try to send asset again and complete
 
-# Development
+## Development
+
 - nodejs 9.0+
 - clone this project
 - create new `.env` from `.env.example`
 - provide `ASSET_NAME`
-```
+
+```bash
+
 ## after clone this project
 $ npm install
 
-// compile typescript
+## compile typescript
 $ npm run watch
 
-// start app
+## start app
 $ npm run dev
 
 ```
